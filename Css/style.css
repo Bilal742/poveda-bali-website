@@ -1,0 +1,322 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Navbar */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background: rgba(72,83,66,0.9);
+    z-index: 1000;
+}
+
+#logo a {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul li {
+    margin-left: 20px;
+}
+
+#navbar ul li a {
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+#navbar ul li a:hover {
+    background: white;
+    color: #48532A;
+}
+
+#menu-toggle {
+    display: none;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 1100px) {
+    #menu-toggle {
+        display: block;
+    }
+
+    #navbar ul {
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        background: rgba(72,83,66,0.95);
+        width: 100%;
+        display: none;
+    }
+
+    #navbar ul li {
+        margin: 15px 0;
+        text-align: center;
+    }
+
+    #navbar ul.active {
+        display: flex;
+    }
+}
+
+
+/* Home Section */
+#home-container {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 10%;
+    color: white;
+    background: url(../Img/bg1.jpg) no-repeat center/cover;
+}
+
+.home h1 {
+    font-size: 3rem;
+}
+
+.home h2 {
+    font-size: 5rem;
+}
+
+.home p {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.home .btn {
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.home .btn:hover {
+    background: white;
+    color: black;
+}
+
+/* Services */
+#services-container {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #c7cec9;
+}
+
+#services {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.box {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 250px;
+}
+
+.box img {
+    width: 100px;
+    height: 100px;
+}
+
+.ntn {
+    margin-top: 15px;
+    padding: 10px 25px;
+    border-radius: 25px;
+    border: 2px solid #48532A;
+    background: transparent;
+    cursor: pointer;
+}
+
+.ntn:hover {
+    background: #48532A;
+    color: white;
+}
+
+/* Place & Love Sections */
+#place, #love {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    gap: 30px;
+}
+
+#place img, #love img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.box-1 {
+    max-width: 500px;
+}
+
+.box-1 h1 {
+    font-size: 2.5rem;
+    color: #48532A;
+    margin-bottom: 15px;
+}
+
+.box-1 p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+/* Testimonials */
+#index-container {
+    background: #323D2B;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+/* Instagram Follow */
+#follow-container {
+    background: #dde6e0;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#follow {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.iteam img {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+/* Contact Section */
+#contact-container {
+    padding: 80px 20px;
+    background: #f3f3f3;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.contact-form label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+    color: #48532A;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.contact-form .btn {
+    width: 100%;
+    background: #48532A;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 1.1rem;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.contact-form .btn:hover {
+    background: #6b7b53;
+}
+
+/* Footer */
+footer {
+    background: #48532A;
+    color: white;
+    padding: 25px 0;
+    text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    #navbar {
+        padding: 20px 40px;
+    }
+
+    .home h2 {
+        font-size: 4rem;
+    }
+
+    #services {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #place, #love {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .home h1 {
+        font-size: 2rem;
+    }
+
+    .home h2 {
+        font-size: 3rem;
+    }
+
+    .home p {
+        font-size: 1rem;
+    }
+
+    #follow img {
+        width: 150px;
+        height: 150px;
+    }
+}
