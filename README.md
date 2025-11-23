@@ -1,6 +1,10 @@
 # Poveda Bali Website
 
+---
+
 A modern, responsive travel website showcasing Bali destinations, adventures, and experiences. This website is designed to provide users with a visually appealing and user-friendly platform to explore Bali’s attractions, culture, and relaxation spots.
+
+---
 
 ## Features
 
@@ -9,6 +13,8 @@ A modern, responsive travel website showcasing Bali destinations, adventures, an
 - Contact form for inquiries and bookings.
 - Modern navigation bar with hover effects.
 - Stylish buttons and interactive UI elements.
+
+---
 
 ## Technologies Used
 
@@ -20,6 +26,8 @@ A modern, responsive travel website showcasing Bali destinations, adventures, an
 ---
 
 ## Installation / Usage
+
+---
 
 1. Clone the repository:  
    ```bash
