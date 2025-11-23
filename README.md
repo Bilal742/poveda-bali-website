@@ -1,4 +1,4 @@
-Poveda Bali Website
+<h3>Poveda Bali Website</h3>
 
 ---
 
@@ -6,8 +6,7 @@ A modern, responsive travel website showcasing Bali destinations, adventures, an
 
 ---
 
-## Features
-
+<h3>Features</h3> 
 
 - Fully responsive design for desktop, tablet, and mobile devices.
 - Sections include Home, Services, Places to Visit, Love Bali, Testimonials, and Instagram Follow.
@@ -17,7 +16,7 @@ A modern, responsive travel website showcasing Bali destinations, adventures, an
 
 ---
 
-## Technologies Used
+<h3>Technologies Used</h3> 
 
 - HTML5
 - CSS3 (Flexbox, Grid)
@@ -26,7 +25,7 @@ A modern, responsive travel website showcasing Bali destinations, adventures, an
 
 ---
 
-## Installation / Usage
+<h3>Installation / Usage</h3> 
 
 ---
 
