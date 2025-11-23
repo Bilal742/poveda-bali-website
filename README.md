@@ -8,6 +8,7 @@ A modern, responsive travel website showcasing Bali destinations, adventures, an
 
 ## Features
 
+
 - Fully responsive design for desktop, tablet, and mobile devices.
 - Sections include Home, Services, Places to Visit, Love Bali, Testimonials, and Instagram Follow.
 - Contact form for inquiries and bookings.
